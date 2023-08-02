@@ -419,49 +419,12 @@ form input,form textarea{
                 0 0 100px cyan,
                 0 0 200px cyan;
   }
-/*.btn-btn2 {
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 16px;
-    margin: 50px auto;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
 
-}
-.btn-btn2:hover {
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan,0 0 50px cyan,
-    0 0 100px cyan,0 0 200px cyan
-}
-.abc{
-    background: transparent;
     padding: 12px 28px;
     font-size: 16px;
     border-radius:40px ;
 
-
 }
-*/
-/*.btn-btn2{
-        display: inline-grid;
-        margin: 50px auto;
-        width: fit-content;
-        border: 1px solid #00FFFF;
-        padding: 14px 50px;
-        border-radius: 8px;
-        text-decoration: none;
-        cursor: pointer;
-        background: transparent;
-        color:#fff;
-        transition: background 0.5s
-}
-.btn-btn2:hover{
-    background: #00FFFF;
-}*/
 .cpyright{
     width: 100%;
     text-align: center;
