@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,intital scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/d4690ced8a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#" style="--i:1"class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#Projects" style="--i:3">Projects</a>
+            <a href="#Portfolio" style="--i:4">Portfolio</a>
+            <a href="#Contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3> Hello It's Me</h3>
+            <h1>Ramyasri Sreeramoju</h1>
+            <h3> And I'm a  <span class="text"> passionate Front End Developer</span></h3>
+            <p>I'm a passionate graduate seeking for a job.
+                <br>in the IT field </p>
+            <div class="home-sci">
+                <a href="#"style="--i:7"><i class='bx bxl-gmail'></i></a>
+                <a href="#"style="--i:8"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"style="--i:9"><i class='bx bxl-github'></i></a>
+                
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+    </section>
+    <script src="main.js"></script>
+
+
+
+
+    <!--about section---------------------------------------------->
+    <div  id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/photo (2).jpeg" alt=" ">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title2">About Me.</h1>
+                    <p>.</p>
+                  <div class="text"> 
+                    <p class="text-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="text-links" onclick="opentab('experience')">Experience</p>
+                    <p class="text-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tabcontents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web development</span><br>protofolio using Html and Css.</li><br>
+                        <li><span>Web App</span><br>Project on Online Quiz System.</li><br>
+                        <li><span>Website </span><br>Project on Website Blocker.</li><br>
+                        <li><span>Animated and Responsive Movie Website </span><br>Project on Creating an Animated and Responsive Movie Website Landing Page.</li><br>
+                        <li><span>E-Commerce Website </span><br>Project on Creating Full Stack E-Commerce Website Using React JS, MongoDB.</li><br>
+                    </ul>
+                  </div>
+                
+                <div class="tabcontents" id="experience">
+              </div>
+                  <div class="tabcontents" id="education" style="margin: 10px 0;">
+                    <ul>
+                        <li><span>2017</span><br>Jnhs high school / 9.5</li><br>
+                        <li><span>2019</span><br>Narayana Junior College / 76%</li><br>
+                        <li><span>2023</span><br>Christu Jyothi Institute Of Technology and Science / 76.9%</li><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- /END About div -->
+
+
+    <!-- Projects div -->
+    <div class="project" id="Projects">
+        <div class="container1">
+            <h1 class="sub-title"> My Projects</h1>
+            <div class="project-list">
+                <div><a href="https://github.com/RAMYASRISREERAMOJU/E-commerce">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>E-Commerce Website.</h2>
+                    <p>This is a Full Stack website using  the React Js</p>
+                <br><a href="https://github.com/RAMYASRISREERAMOJU/E-commerce">Learn more</a>
+                </div></a>
+                <div><a href="https://github.com/RAMYASRISREERAMOJU/portfolio">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Portfolio.</h2>
+                    <p>This is a simple protofolio made by usng Html and Css.</p>
+                <br><a href="https://github.com/RAMYASRISREERAMOJU/portfolio">Learn more</a>
+                </div></a>
+                <div><a href="https://github.com/RAMYASRISREERAMOJU/Online_Quiz_System">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Online Quiz System.</h2>
+                    <p>This is a simple web app using Azure App Services.</p>
+                    <br><a href="https://github.com/RAMYASRISREERAMOJU/Online_Quiz_System">Learn more</a>
+                </div></a>
+            <div><a>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Website Blocker.</h2>
+                <p>This project is blocking of different websites.</p>
+                <br><a href="https://github.com/RAMYASRISREERAMOJU/website_blocker">Learn more</a>
+            </div></a>
+            <div><a>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Movie Website.</h2>
+                <p>This project is about the responsive movie website landing page.</p>
+                <br><a href="https://github.com/RAMYASRISREERAMOJU/movie-website">Learn more</a>
+            </div></a>
+        </div>
+   </div>
+   <!-- ****/END Projects div **** -->
+         <br>
+
+   <!-- **** Protofolio div **** -->
+    <div  id="Portfolio">
+        <div class="container2">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/img/eCommerce.jpg">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>This website describe my skills and talents on react.js .</p>
+                        <a href="https://github.com/RAMYASRISREERAMOJU/E-commerce"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>    
+            <div class="work">
+                <img src="/img/work6.jpeg">
+                <div class="layer">
+                    <h3>Online Quiz System</h3>
+                    <p>This web app describe my skills and talents on Web app and also on Azure .</p>
+                    <a href="https://github.com/RAMYASRISREERAMOJU/Online_Quiz_System"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/work-2.png">
+                <div class="layer">
+                    <h3> Protofolio</h3>
+                    <p>This web app describe my skills and talents on Html and Css.</p>
+                    <a href="https://github.com/RAMYASRISREERAMOJU/portfolio"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/work-3.jpeg">
+                <div class="layer">
+                    <h3>Website Blocker</h3>
+                    <p>This web app describe my skills and talents on Python.</p>
+                    <a href="https://github.com/RAMYASRISREERAMOJU/website_blocker"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/page.jpeg">
+                <div class="layer">
+                    <h3>Movie Website</h3>
+                    <p>This web app describe my skills and talents on HTML,CSS and JS.</p>
+                    <a href="https://github.com/RAMYASRISREERAMOJU/movie-website"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+           </div>
+           <a href="https://github.com/RAMYASRISREERAMOJU?tab=repositories" class="btn">See More</a>
+       </div>
+</div>
+<!-- /END Protofolio div -->
+
+
+<!-- Contact div -->
+<div  id="Contact">
+    <div class="container">
+        <div class="row">
+          <div class="contact-left">
+              <h1 class="sub-title1">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>sreeramojuramyasri@gmail.com</p>
+              <p><i class="fa-sharp fa-solid fa-phone"></i>+917569699871</p>
+             <div class="home-sci1" >
+                  <a href="https://mail.google.com/mail/#inbox?compose=sreeramojuramyasri"><i class='bx bxl-gmail'></i></a>
+                  <a href="https://www.linkedin.com/in/ramya-sri-sreeramoju-26584325a/"><i class='bx bxl-linkedin'></i></a>
+                  <a href="https://github.com/RAMYASRISREERAMOJU"><i class='bx bxl-github'></i></a>
+                  
+             </div>
+           </div>
+         <div class="contact-right">
+              <form>
+                 <input type="text" name="Name" placeholder="Your Name" required>
+                 <input type="email" name="email" placeholder="Your Email" required>
+                 <textarea name="Message" rows="6" column="10" placeholder="Your Message"></textarea>
+                 <button type="submit" class="btn-btn2">Submit</button>
+              </form>
+          </div>
+        </div>
+    </div>
+</div>
+<!-- /END Contact div -->
+    <div class="cpyright">
+        <p>Copyright © Ramyasri 2023 </p>
+    </div>
+
+  
+    
+
+ </body>
+</html>
